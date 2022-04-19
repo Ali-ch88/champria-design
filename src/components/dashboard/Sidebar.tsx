@@ -10,12 +10,12 @@ const Links = [
 
 ]
 const Sidebar = () => {
-    const [showDown, setshowDown] = useState<Boolean>(true)
+    const [showDown, setshowDown] = useState<Boolean>(false)
     return (
-        <div className='absolute top-36 bottom-0 lg:hidden left-0 right-0 z-50 bg-[#2F2F2F]'>
+        <div className='absolute top-16 lg:hidden left-0 right-0 z-50 bottom-0 bg-[#2F2F2F]'>
             <div className=''>
                 {/* logo cont */}
-                <div className='bg-[#7635EF] flex items-center justify-center p-4 space-x-3'>
+                <div className=' flex items-center justify-center p-4 space-x-3'>
                     <img
                         src={Logo}
                     />
